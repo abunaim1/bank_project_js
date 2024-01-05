@@ -1,3 +1,81 @@
-body{
-    background-color: blue;
+.amount-container{
+    display: flex;
+    gap: 20px;  
+    justify-content: center;
+    align-items: center; 
+}
+.amount-box{
+    width: 200px;
+    height: 150px;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    box-shadow: 4px 4px 8px gray;
+}
+.deposite{
+    background-color: rgb(190, 14, 14);
+}
+.withdraw{
+    background-color: rgb(31, 30, 30);
+}
+.total{
+    background-color: crimson;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deposite-box{
+    border: 3px solid gray;
+    margin-top: 50px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.withdraw-box{
+    border: 3px solid gray;
+    margin-top: 50px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.input{
+    width: 200px;
+    height: 30px;
+}
+.btn-w{
+    border: none;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-d{
+    border: none;
+    background-color:rgb(191, 13, 13);
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.deposite-withdraw-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
 }

@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bank Management</title>
-    <link rel="stylesheet" href="style.css">  
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="amount-container">
+      <div class="amount-box deposite">
+        <div class="amount">
+          <h1 id="deposite-amount">00</h1>
+          <p>Deposite</p>
+        </div>
+      </div>
+      <div class="amount-box withdraw">
+        <div class="amount">
+          <h1 id="withdraw-amount">00</h1>
+          <p>Withdraw</p>
+        </div>
+      </div>
+      <div class="amount-box total">
+        <div class="amount">
+          <h1 id="total-amount">00</h1>
+          <p>Total</p>
+        </div>
+      </div>
+    </div>
+    <div class="deposite-withdraw-container">
+      <div class="deposite-box">
+        <input type="text" class="input" id="deposite-input" />
+        <button onclick="handleDeposite()" class="btn-d">Deposite</button>
+      </div>
+      <div class="withdraw-box">
+        <input type="text" class="input" id="withdraw-input"/>
+        <button class="btn-w" onclick="handleWithdraw()">Withdraw</button>
+      </div>
+    </div>
     <!-- Script file -->
     <script src="project.js"></script>
-</body>
+  </body>
 </html>
